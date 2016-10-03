@@ -11,6 +11,7 @@ public class Test1 {
 	public void f(){
 		
 		WebDriver driver=new FirefoxDriver();
+		driver.manage().window().maximize();
 		driver.get("http://docs.seleniumhq.org/download/maven.jsp");
 		
 		driver.close();
